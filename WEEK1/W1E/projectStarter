@@ -1,0 +1,13 @@
+echo “Creating a new project”
+mkdir "$1"
+cd "$1"
+touch index.html
+echo "Hello World" > index.html
+cd ..
+mkdir css
+cd css
+touch style.css
+mkdir js images pages
+cd ..
+echo "All done!" 
+chmod +x  projectStarter
